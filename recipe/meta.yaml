@@ -1,8 +1,8 @@
 {% set name = "cssselect2" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 {% set file_ext = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "505d2ce3d3a1d390ddb52f7d0864b7efeb115a5b852a91861b498b92424503ab" %}
+{% set hash_value = "70485a680cd72b023f0ce5ae4dcd392e2b10f7280e20afdb1735334bd6af7e6a" %}
 
 package:
   name: '{{ name|lower }}'

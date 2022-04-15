@@ -1,17 +1,17 @@
 {% set name = "cssselect2" %}
-{% set version = "0.2.1" %}
+{% set version = "0.6.0" %}
 
 package:
-  name: '{{ name|lower }}'
-  version: '{{ version }}'
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 505d2ce3d3a1d390ddb52f7d0864b7efeb115a5b852a91861b498b92424503ab
+  sha256: 5b5d6dea81a5eb0c9ca39f116c8578dd413778060c94c1f51196371618909325
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:

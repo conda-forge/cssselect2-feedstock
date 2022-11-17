@@ -5,9 +5,13 @@ Home: https://github.com/Kozea/cssselect2
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cssselect2-feedstock/blob/master/LICENSE.txt)
 
 Summary: CSS selectors for Python ElementTree
+
+Development: https://github.com/Kozea/cssselect2
+
+Documentation: http://cssselect2.readthedocs.io
 
 cssselect2 is a straightforward implementation of CSS3 Selectors for markup documents.
 

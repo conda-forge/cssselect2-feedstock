@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.8
     - pip
     - setuptools
     - tinycss2
   run:
-    - python
+    - python >=3.8
     - tinycss2
 
 test:

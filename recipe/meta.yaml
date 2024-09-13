@@ -18,12 +18,11 @@ requirements:
   host:
     - python >=3.8
     - pip
-    - setuptools
+    - flit-core
     - tinycss2
   run:
     - python >=3.8
     - tinycss2
-    - flit
 
 test:
   imports:

@@ -23,6 +23,7 @@ requirements:
   run:
     - python >=3.8
     - tinycss2
+    - flit
 
 test:
   imports:

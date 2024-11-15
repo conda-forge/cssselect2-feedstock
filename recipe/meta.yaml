@@ -1,27 +1,27 @@
 {% set name = "cssselect2" %}
-{% set version = "0.2.1" %}
+{% set version = "0.7.0" %}
 
 package:
-  name: '{{ name|lower }}'
-  version: '{{ version }}'
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 505d2ce3d3a1d390ddb52f7d0864b7efeb115a5b852a91861b498b92424503ab
+  sha256: 1ccd984dab89fc68955043aca4e1b03e0cf29cad9880f6e28e3ba7a74b14aa5a
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
   host:
-    - python
+    - python >=3.8
     - pip
-    - setuptools
+    - flit-core
     - tinycss2
   run:
-    - python
+    - python >=3.8
     - tinycss2
 
 test:
@@ -42,3 +42,4 @@ about:
 extra:
   recipe-maintainers:
     - johanneskoester
+    - zwelz3

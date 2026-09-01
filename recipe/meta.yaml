@@ -1,5 +1,5 @@
 {% set name = "cssselect2" %}
-{% set version = "0.10.0" %}
+{% set version = "0.10.1" %}
 
 package:
   name: '{{ name|lower }}'
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/cssselect2-{{ version }}.tar.gz
-  sha256: 5bc3e3e8da5e77a4a7396a464b5582200d8813bca40fa940263ac5ae57aafccd
+  sha256: 83b0d820ef589dabaf693289b647c2f5b410f76d285f56deba911ffa75a7b9d1
 
 build:
   noarch: python
